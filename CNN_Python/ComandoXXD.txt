@@ -1,0 +1,6 @@
+# Comando para convertir modelo de TensorFlow Lite a un arreglo de bytes
+# para su uso en C++
+# (Este comando se ejecuta en entornos linux junto al archivo .tflite)
+
+
+xxd -i modelo_tesis_binario_Angry_finalv5.tflite > modelo_tesis_binario_Angry_finalv5.cc
